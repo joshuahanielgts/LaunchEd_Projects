@@ -43,3 +43,22 @@ Classify house listings in Bangalore as **Low**, **Medium**, or **High** price t
 - Evaluation with **Accuracy**, **Confusion Matrix**, **F1 Score**
 
 ### 📊 Model Accuracy: ~85%
+
+## 📊 3. Customer Segmentation using Clustering
+
+### 🎯 Objective
+Segment mall customers based on Age, Annual Income, and Spending Score using K-Means clustering.
+
+### 📦 Dataset
+- **Source:** Manually cleaned CSV derived from synthetic + Kaggle datasets.
+- **Features:** Age, Annual Income (k$), Spending Score (1–100)
+
+### 🧠 Techniques Used
+- Data cleaning & visualization with **Pandas**, **Seaborn**, **Matplotlib**, **Plotly**
+- Feature scaling using **StandardScaler**
+- **Elbow Method** to determine optimal K
+- **K-Means Clustering** for segmentation
+- 2D & 3D cluster visualization
+- Interpretation of customer types for targeted marketing
+
+---
